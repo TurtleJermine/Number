@@ -6,9 +6,9 @@ class Number
 {
 	public:
 		Number(){}
-		virtual void print()=0;
-		virtual Number add(const Number&)=0;
-		virtual Number mul(const Number&)=0;
+		virtual void print(){};
+		virtual Number add(const Number&){}
+		virtual Number mul(const Number&){}
 		~Number(){}
 };
 
